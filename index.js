@@ -6,6 +6,8 @@ console.clear();
 
 const item = ["Egg", 0.25, 12];
 
+export const [name, price, quantity] = item;
+
 // example: export const [value1, value2] = array;
 
 // EXERCISE 2
@@ -13,11 +15,15 @@ const item = ["Egg", 0.25, 12];
 
 const personChris = [12, "Chris", "Owen"];
 
+export const [ageOfChris, firstNameOfChris, lastNameOfChris] = personChris;
+
 // EXERCISE 3
 // Use array destructuring to extract the variables "firstNameOfAlex" and "lastNameOfAlex".
 // Make sure not to have unused variables.
 
 const personAlex = ["Alex", 12, "Main"];
+
+export const [firstNameOfAlex, , lastNameOfAlex] = personAlex;
 
 // EXERCISE 4
 // Use array destructuring to extract the last name from the array
